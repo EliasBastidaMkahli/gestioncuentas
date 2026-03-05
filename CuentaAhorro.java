@@ -9,6 +9,6 @@ public class CuentaAhorro extends Cuenta {
     }
 
     public void aplicarInteres() {
-        saldo = saldo + (saldo * interes / 100);
+        setSaldo(getSaldo() + (getSaldo() * interes / 100));
     }
 }
